@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Découvrez Cookie Run: Kingdom — La Fin Alternative, une histoire de mystère, de rêves et de secrets.">
+<title>Cookie Run: Kingdom — La Fin Alternative</title>
+<style>
+:root{--night:#100d20;--plum:#211638;--violet:#8060b8;--gold:#f2c879;--cream:#fff4df;--muted:#c8bdd8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--night);color:var(--cream);font-family:Georgia,'Times New Roman',serif;line-height:1.65}
+a{color:inherit}.hero{min-height:88vh;display:grid;place-items:center;text-align:center;padding:70px 22px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 20%,#594079 0%,#2a1c43 38%,#100d20 78%)}
+.hero:before,.hero:after{content:"✦";position:absolute;color:#f2c87988;font-size:clamp(100px,20vw,250px);filter:blur(1px)}.hero:before{top:4%;left:5%}.hero:after{bottom:0;right:7%;font-size:clamp(70px,15vw,180px)}
+.hero-inner{max-width:850px;position:relative;z-index:1}.eyebrow{letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font:600 12px Arial,sans-serif}
+h1{font-size:clamp(2.6rem,7vw,5.8rem);line-height:1.02;margin:22px 0;color:#fff4df;text-shadow:0 5px 30px #080510}
+h1 span{display:block;color:var(--gold);font-size:.55em;letter-spacing:.08em;margin-top:15px}
+.lead{max-width:650px;margin:24px auto;color:#e2d7ee;font-size:1.15rem}
+.btn{display:inline-block;margin:12px 7px;padding:13px 23px;border:1px solid var(--gold);border-radius:30px;text-decoration:none;font:600 13px Arial,sans-serif;letter-spacing:.06em;transition:.2s}
+.btn.primary{background:var(--gold);color:#211638}.btn:hover{transform:translateY(-3px);box-shadow:0 8px 25px #0005}
+nav{position:sticky;top:0;z-index:5;background:#100d20ed;backdrop-filter:blur(12px);border-bottom:1px solid #ffffff18;display:flex;justify-content:center;gap:clamp(12px,4vw,42px);padding:15px 10px;font:12px Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--gold)}
+section{padding:85px 22px;max-width:1050px;margin:auto}.section-kicker{color:var(--gold);font:600 11px Arial,sans-serif;letter-spacing:.25em;text-transform:uppercase}
+h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;margin:10px 0 22px}.intro{max-width:720px;color:var(--muted);font-size:1.08rem}
+.panel{background:linear-gradient(145deg,#2a1e40,#191329);border:1px solid #b99ae344;border-radius:22px;padding:clamp(22px,5vw,42px);box-shadow:0 18px 55px #0003}
+.quote{font-size:clamp(1.3rem,3vw,2rem);font-style:italic;color:#f6dfb2;line-height:1.45}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;margin-top:30px}
+.card{padding:25px;border-radius:18px;background:#211832;border:1px solid #ffffff18}
+.card .symbol{font-size:30px;color:var(--gold)}.card h3{margin:10px 0 5px;color:#fff0d2}.card p{margin:0;color:var(--muted);font-size:.96rem}
+.chapter{display:flex;gap:18px;align-items:flex-start;padding:19px 0;border-bottom:1px solid #ffffff20}.number{flex:0 0 42px;height:42px;border:1px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font:14px Arial,sans-serif}
+.chapter h3{margin:0 0 4px}.chapter p{margin:0;color:var(--muted);font-size:.94rem}
+.note{font:12px Arial,sans-serif;color:#a99db8;margin-top:20px}
+footer{text-align:center;padding:40px 20px;background:#0b0913;color:#a99db8;font:12px Arial,sans-serif;border-top:1px solid #ffffff15}
+@media(max-width:560px){nav{gap:13px;font-size:10px;flex-wrap:wrap}.hero{min-height:80vh}}
+</style>
+</head>
+<body>
+<header class="hero" id="accueil">
+  <div class="hero-inner">
+    <div class="eyebrow">Une histoire inspirée de Cookie Run: Kingdom</div>
+    <h1>COOKIE RUN: KINGDOM <span>La Fin Alternative</span></h1>
+    <p class="lead">Et si l’histoire ne se terminait pas comme prévu ? Entre rêves mystérieux, secrets enfouis et destins bouleversés, une autre aventure commence…</p>
+    <a class="btn primary" href="#histoire">Découvrir l’histoire</a>
+    <a class="btn" href="#chapitres">Explorer les chapitres</a>
+  </div>
+</header>
+<nav aria-label="Navigation principale">
+  <a href="#histoire">L’histoire</a><a href="#univers">L’univers</a><a href="#chapitres">Chapitres</a><a href="#auteur">À propos</a><a href="#admin">Administration</a>
+</nav>
+<main>
+<section id="histoire">
+  <div class="section-kicker">Le début d’une autre légende</div>
+  <h2>Une fin… qui n’en est peut-être pas une.</h2>
+  <div class="panel">
+    <p class="quote">« Quand les rêves cachent des secrets, même le royaume le plus lumineux peut voir son destin changer. »</p>
+    <p class="intro">Bienvenue dans <strong>Cookie Run: Kingdom — La Fin Alternative</strong>, une histoire de fan qui imagine une nouvelle suite à l’univers de Cookie Run: Kingdom. Retrouve des personnages connus, découvre de nouveaux mystères et suis les événements au fil des chapitres.</p>
+  </div>
+</section>
+<section id="univers">
+  <div class="section-kicker">L’ambiance</div>
+  <h2>Un royaume entre lumière et obscurité</h2>
+  <p class="intro">Une atmosphère sombre et mystérieuse, traversée de moments d’émotion, de magie et de révélations.</p>
+  <div class="grid">
+    <article class="card"><div class="symbol">☾</div><h3>Les rêves</h3><p>Des songes étranges qui pourraient bien cacher des indices essentiels.</p></article>
+    <article class="card"><div class="symbol">✧</div><h3>Les secrets</h3><p>Des vérités oubliées et des mystères qui attendent d’être révélés.</p></article>
+    <article class="card"><div class="symbol">♜</div><h3>Les destins</h3><p>Des choix difficiles, des alliances et des chemins inattendus.</p></article>
+  </div>
+</section>
+<section id="chapitres">
+  <div class="section-kicker">Lire l’aventure</div>
+  <h2>Les épisodes</h2>
+  <p class="intro">Trois épisodes composent cette aventure. Choisis un épisode pour accéder à sa page de lecture.</p>
+  <div class="grid">
+    <article class="card">
+      <div class="symbol">01</div>
+      <h3>Épisode 1</h3>
+      <p>Les deux silhouettes</p>
+      <a class="btn primary" href="#episode-1">Lire l’épisode</a>
+    </article>
+    <article class="card">
+      <div class="symbol">02</div>
+      <h3>Épisode 2</h3>
+      <p>Les choses « bizarres » commencent…</p>
+      <a class="btn primary" href="#episode-2">Lire l’épisode</a>
+    </article>
+    <article class="card">
+      <div class="symbol">03</div>
+      <h3>Épisode 3</h3>
+      <p>Le cauchemar collectif</p>
+      <a class="btn primary" href="#episode-3">Lire l’épisode</a>
+    </article>
+  </div>
+</section>
+<section id="episode-1">
+  <div class="section-kicker">Page de lecture</div>
+  <h2>Épisode 1</h2>
+  <div class="panel">
+    <h3 style="color:var(--gold);font-size:1.45rem">Les deux silhouettes</h3>
+    <h3 style="font-size:1.15rem">Partie 1 — Le commencement d'un terrible cauchemar</h3>
+    <p><strong>[Quelque part, dans une forêt inconnue…]</strong></p>
+    <p>La nuit est tombée.</p>
+    <p>Le vent souffle entre les arbres. Les branches bougent étrangement et une épaisse brume recouvre progressivement le sol.</p>
+    <p>Un Cookie court à toute vitesse.</p>
+    <p>Il regarde constamment derrière lui. Il semble complètement terrifié.</p>
+    <p><strong>Cookie inconnu :</strong> « NON… NON ! LAISSEZ-MOI TRANQUILLE ! »</p>
+    <p>Derrière lui, deux silhouettes le poursuivent.</p>
+    <p>Elles ne courent presque pas. Elles avancent tranquillement, comme si elles savaient déjà qu'il ne pourrait pas leur échapper.</p>
+    <p><strong>Première silhouette :</strong> « Hihihihi… Il court encore. »</p>
+    <p><strong>Deuxième silhouette :</strong> « Laisse-le profiter de ses derniers instants de liberté. »</p>
+    <p>Le Cookie trébuche et tombe au sol.</p>
+    <p><strong>Cookie inconnu :</strong> « Pitié… Qu'est-ce que vous me voulez ?! »</p>
+    <p>Un silence.</p>
+    <p>Puis…</p>
+    <p><em>CLAC !</em></p>
+    <p>Une immense paire de ciseaux noirs apparaît soudainement.</p>
+    <p>Une lame atteint le Cookie. Une étrange énergie sombre commence à envelopper son corps.</p>
+    <p>Le Cookie commence à se briser en petites particules lumineuses.</p>
+    <p>Mais les ciseaux restent suspendus dans les airs.</p>
+    <p>La première silhouette vient s'installer dessus, comme sur un trône.</p>
+    <p>La deuxième s'approche tranquillement.</p>
+    <p><strong>Première silhouette :</strong> « Alors ? Tu as vu comme ils sont fragiles ? »</p>
+    <p><strong>Deuxième silhouette :</strong> « Absolument. Les Cookies sont tellement attachés à leurs petits rêves… »</p>
+    <p>Elle commence à rire.</p>
+    <p><strong>Première silhouette :</strong> « Un jour, il ne restera que des cauchemars. »</p>
+    <p><strong>Deuxième silhouette :</strong> « Les rêves seront détruits à jamais. »</p>
+    <p><strong>Première silhouette :</strong> « Plus personne ne pourra espérer. Plus personne ne pourra imaginer un monde meilleur. »</p>
+    <p><strong>Deuxième silhouette :</strong> « Et tous finiront par découvrir notre véritable royaume. »</p>
+    <p>Les deux silhouettes éclatent de rire.</p>
+    <p>Mais soudain, la deuxième silhouette cesse de rire.</p>
+    <p><strong>Deuxième silhouette :</strong> « Attends… »</p>
+    <p><strong>Première silhouette :</strong> « Quoi ? »</p>
+    <p><strong>Deuxième silhouette :</strong> « Tu as oublié quelque chose. »</p>
+    <p><strong>Première silhouette :</strong> « Ah oui ? Quoi donc ? »</p>
+    <p>La deuxième silhouette tourne lentement la tête vers le ciel.</p>
+    <p><strong>Deuxième silhouette :</strong> « Crémy. »</p>
+    <p>Un silence glacial s'installe.</p>
+    <p><strong>Première silhouette :</strong> « …Oh. Tu as raison. »</p>
+    <p>Elle descend lentement des ciseaux.</p>
+    <p><strong>Première silhouette :</strong> « Cette fois, nous allons devoir nous occuper d'elle. »</p>
+    <p><strong>Deuxième silhouette :</strong> « Et de cette fameuse salle… »</p>
+    <p>Les deux silhouettes disparaissent dans la brume.</p>
+    <p>Les ciseaux noirs tombent finalement au sol.</p>
+    <p><em>CLAC.</em></p>
+    <p><strong>[Quelques instants plus tard…]</strong></p>
+    <p>Très loin de cette forêt, dans un endroit encore inconnu…</p>
+    <p>Une petite lumière s'allume dans une pièce mystérieuse.</p>
+    <p>Sur une porte, une inscription apparaît progressivement :</p>
+    <p><em>« LE CYCLE DES CAUCHEMARS EST DE NOUVEAU EN MARCHE. »</em></p>
+    <p>Puis la lumière s'éteint.</p>
+    <p><strong>FIN — ÉPISODE 1, PARTIE 1.</strong></p>
+    <a class="btn" href="#chapitres">Retour aux épisodes</a>
+  </div>
+</section>
+<section id="episode-2">
+  <div class="section-kicker">Page de lecture</div>
+  <h2>Épisode 2</h2>
+  <div class="panel">
+    <h3 style="color:var(--gold);font-size:1.45rem">Les choses « bizarres » commencent…</h3>
+    <p>Un petit rêve commence doucement à s'effondrer.</p>
+    <p>Le ciel se fissure. Les couleurs disparaissent progressivement et le décor semble perdre toute sa stabilité.</p>
+    <p>Mais quelque chose est étrange : Crémy sait exactement pourquoi cela arrive.</p>
+    <p>Elle ne semble même pas surprise.</p>
+    <p>Sans prévenir les autres, elle se dirige vers une salle particulière.</p>
+    <p>Cette salle est très mystérieuse.</p>
+    <p>Personne ne connaît son origine.<br>Personne ne sait qui l'a construite.<br>Personne ne sait ce qu'elle contient.</p>
+    <p>Est-elle mystérieuse ? Chouette ? Dangereuse ? Ou peut-être tout cela à la fois ?</p>
+    <p>Une chose est certaine : <strong>personne ne peut y entrer.</strong></p>
+    <p>Et pourtant, Crémy semble connaître cet endroit…</p>
+    <hr style="border:0;border-top:1px solid #ffffff25;margin:30px 0">
+    <div class="section-kicker">Suite — Partie 1</div>
+    <h3 style="color:var(--gold);font-size:1.35rem">Le rêve qui s'effondrait (suite)</h3>
+    <p><strong>[Trois heures plus tard…]</strong></p>
+    <p><em>Dans le mystérieux couloir, une porte commence lentement à s'ouvrir.</em></p>
+    <p>Crémy sort enfin de la salle.</p>
+    <p>Elle remet tranquillement ses affaires en place et regarde derrière elle.</p>
+    <p>La porte se referme toute seule.</p>
+    <p><strong>Cookie Humaine :</strong> « CRÉMY ! ENFIN ! MAIS TU ÉTAIS OÙ ?! »</p>
+    <p><strong>Crémy :</strong> « Quelque part. »</p>
+    <p><strong>Cookie Humaine :</strong> « Quelque part ?! Ça fait trois heures qu'on t'attend ! »</p>
+    <p><strong>Cookie 1 :</strong> « Attendez… Regardez le rêve ! »</p>
+    <p>Tout le monde tourne la tête.</p>
+    <p>Le petit rêve, qui était auparavant en train de s'effondrer, est redevenu parfaitement normal.</p>
+    <p>Les arbres ont retrouvé leurs couleurs. Le ciel brille de nouveau. Les petites étoiles flottent dans les airs.</p>
+    <p><strong>Cookie 2 :</strong> « Mais… comment c'est possible ? »</p>
+    <p><strong>Cookie Humaine :</strong> « Crémy… C'est toi qui as réparé tout ça ? »</p>
+    <p><strong>Crémy :</strong> « Peut-être. »</p>
+    <p><strong>Cookie Humaine :</strong> « COMMENT ÇA, PEUT-ÊTRE ?! »</p>
+    <p>Crémy ne répond pas.</p>
+    <p>Elle regarde simplement le ciel.</p>
+    <p>Pendant une fraction de seconde, son expression change. Elle semble avoir aperçu quelque chose.</p>
+    <p>Une petite fissure noire apparaît dans le ciel.</p>
+    <p>Puis disparaît.</p>
+    <p><strong>Crémy (dans ses pensées) :</strong> « Ils ont déjà commencé… »</p>
+
+    <h3 style="color:var(--gold);font-size:1.25rem">[Plus tard — 22 h 47]</h3>
+    <p>Après cette journée étrange, toutes les filles décident d'aller se coucher.</p>
+    <p><strong>Cookie Humaine :</strong> « Bon, bonne nuit tout le monde ! Et surtout, pas de bêtises pendant la nuit ! »</p>
+    <p><strong>Cookie 1 :</strong> « Bonne nuit ! »</p>
+    <p><strong>Cookie 2 :</strong> « J'espère faire un joli rêve ! »</p>
+    <p><strong>Crémy :</strong> « …Bonne nuit. »</p>
+    <p>Les lumières s'éteignent.</p>
+    <p>Le silence envahit les chambres.</p>
+    <p>Mais quelque chose ne va pas.</p>
+
+    <h3 style="color:var(--gold);font-size:1.25rem">[23 h 16 — Le commencement des cauchemars]</h3>
+    <p><strong>Dans le rêve de Cookie Humaine…</strong></p>
+    <p>Elle se retrouve dans une immense forêt.</p>
+    <p>Il fait nuit.</p>
+    <p>Les arbres sont complètement immobiles.</p>
+    <p><strong>Cookie Humaine :</strong> « Hein ? Où est-ce que je suis ? »</p>
+    <p>Elle avance de quelques pas.</p>
+    <p>Soudain, elle entend un rire.</p>
+    <p>Un rire lointain.</p>
+    <p>Puis une voix :</p>
+    <p><strong>??? :</strong> « Tu es enfin arrivée… »</p>
+    <p>Cookie Humaine se retourne.</p>
+    <p>Personne.</p>
+    <p><strong>Cookie Humaine :</strong> « Qui est là ?! »</p>
+    <p>La voix reprend :</p>
+    <p><strong>??? :</strong> « Les rêves sont si fragiles… Tu ne trouves pas ? »</p>
+
+    <p><strong>Dans le rêve d'une autre fille…</strong></p>
+    <p>Elle se trouve dans une salle immense remplie de portes.</p>
+    <p>Toutes les portes sont fermées.</p>
+    <p>Sauf une.</p>
+    <p>Sur cette porte, un symbole étrange est dessiné : une paire de ciseaux noirs.</p>
+    <p><strong>La fille :</strong> « Pourquoi ce symbole… ? »</p>
+    <p>La porte s'entrouvre.</p>
+    <p>Une ombre passe derrière.</p>
+    <p>Puis plus rien.</p>
+
+    <p><strong>Dans le rêve de Crémy…</strong></p>
+    <p>Contrairement aux autres, Crémy ne semble pas perdue.</p>
+    <p>Elle se tient devant une grande porte noire.</p>
+    <p>La même salle.</p>
+    <p>La même porte mystérieuse.</p>
+    <p>Mais cette fois, quelque chose est écrit dessus :</p>
+    <p><em>« TU N'AURAIS JAMAIS DÛ NOUS LAISSER ENTRER. »</em></p>
+    <p>Crémy baisse les yeux.</p>
+    <p><strong>Crémy :</strong> « …Non. »</p>
+    <p>Une voix éclate de rire derrière la porte.</p>
+    <p><strong>??? :</strong> « Hihihihi… Tu croyais vraiment pouvoir nous arrêter ? »</p>
+    <p>Crémy serre les poings.</p>
+    <p><strong>Crémy :</strong> « Vous n'auriez jamais dû revenir. »</p>
+    <p>La porte tremble.</p>
+    <p>Une deuxième voix intervient :</p>
+    <p><strong>??? :</strong> « Oh, Crémy… Tu nous as tellement manqué. »</p>
+    <p>Deux silhouettes apparaissent derrière la porte.</p>
+    <p>L'une tient une immense paire de ciseaux noirs.</p>
+    <p>L'autre commence à rire.</p>
+    <p><strong>Crémy :</strong> « … »</p>
+    <p><strong>Première silhouette :</strong> « Les rêves vont bientôt disparaître. »</p>
+    <p><strong>Deuxième silhouette :</strong> « Et cette fois, personne ne pourra nous arrêter. »</p>
+
+    <h3 style="color:var(--gold);font-size:1.25rem">[23 h 59 — Dans le monde réel]</h3>
+    <p>Toutes les filles commencent à s'agiter dans leur sommeil.</p>
+    <p>Leurs rêves sont désormais reliés.</p>
+    <p>Un même symbole apparaît au-dessus de chacune de leurs chambres.</p>
+    <p>Une paire de ciseaux noirs.</p>
+    <p>Et quelque part, dans une salle dont personne ne connaît l'origine…</p>
+    <p>Une petite lumière rouge vient de s'allumer.</p>
+    <p><strong>??? :</strong> « Première étape : terminée. »</p>
+    <p><strong>FIN — ÉPISODE 2, PARTIE 1</strong></p>
+    <h3 style="color:var(--gold);font-size:1.2rem">🌙 Mystère pour la suite</h3>
+    <p>Quelque chose est certain : Crémy connaît les deux silhouettes. Et elles semblent connaître Crémy depuis très longtemps.</p>
+    <p>Mais pourquoi la salle mystérieuse est-elle liée à elles ?</p>
+    <a class="btn" href="#chapitres">Retour aux épisodes</a>
+  </div>
+</section>
+<section id="episode-3">
+  <div class="section-kicker">Page de lecture</div>
+  <h2>Épisode 3</h2>
+  <div class="panel">
+    <h3 style="color:var(--gold);font-size:1.45rem">Le cauchemar collectif</h3>
+    <h3 style="font-size:1.15rem">Partie 1 — Quelque chose ne tourne pas rond…</h3>
+    <p><strong>[00 h 03 — Monde des rêves]</strong></p>
+    <p>Le silence règne dans les chambres.</p>
+    <p>Toutes les filles sont toujours endormies.</p>
+    <p>Mais leurs cauchemars deviennent de plus en plus étranges.</p>
+    <p>Dans un immense espace noir, les filles apparaissent progressivement. Elles sont toutes réunies au même endroit, sans comprendre comment elles sont arrivées là.</p>
+    <p><strong>Cookie Humaine :</strong> « Les filles ?! Vous êtes là ?! »</p>
+    <p><strong>Une fille :</strong> « Attendez… On fait toutes le même rêve ? »</p>
+    <p><strong>Une autre :</strong> « Ce n'est pas normal… »</p>
+    <p>Un bruit retentit.</p>
+    <p><em>CLAC.</em></p>
+    <p>Une énorme porte apparaît devant elles.</p>
+    <p>Sur cette porte, un symbole est gravé : deux ciseaux noirs entrecroisés.</p>
+    <p><strong>Cookie Humaine :</strong> « Euh… Je suis la seule à trouver cette porte extrêmement inquiétante ? »</p>
+    <p><strong>Une fille :</strong> « Non, je crois qu'on est toutes d'accord. »</p>
+    <p>Soudain, une voix retentit.</p>
+    <p><strong>??? :</strong> « Bienvenue dans notre petit monde… »</p>
+    <p><strong>Cookie Humaine :</strong> « QUI A PARLÉ ?! »</p>
+    <p>Un rire se fait entendre.</p>
+    <p>Puis une deuxième voix intervient.</p>
+    <p><strong>??? :</strong> « Vous êtes tellement mignonnes quand vous avez peur… »</p>
+    <p>Les filles reculent.</p>
+
+    <h3 style="color:var(--gold);font-size:1.2rem">[De l'autre côté de la porte]</h3>
+    <p>Crémy observe discrètement la scène.</p>
+    <p>Elle semble connaître cet endroit.</p>
+    <p><strong>Crémy :</strong> « Non… Pas maintenant… »</p>
+    <p>Elle pose sa main sur la porte.</p>
+    <p>Mais celle-ci refuse de s'ouvrir.</p>
+    <p>Une inscription apparaît :</p>
+    <p><em>« ACCÈS REFUSÉ. »</em></p>
+    <p><strong>Crémy :</strong> « Vous avez vraiment osé verrouiller cette porte ? »</p>
+    <p>Elle ferme les yeux.</p>
+    <p><strong>Crémy :</strong> « Très bien. Alors je vais devoir trouver une autre solution. »</p>
+
+    <h3 style="color:var(--gold);font-size:1.2rem">[Retour auprès des filles]</h3>
+    <p>La porte s'ouvre brusquement.</p>
+    <p>Deux silhouettes apparaissent.</p>
+    <p>La première porte une longue cape noire. La seconde possède une étrange aura violette.</p>
+    <p>La première silhouette incline légèrement la tête.</p>
+    <p><strong>Première silhouette :</strong> « Alors… laquelle d'entre vous veut connaître la vérité ? »</p>
+    <p><strong>Cookie Humaine :</strong> « On veut surtout savoir qui vous êtes ! »</p>
+    <p><strong>Deuxième silhouette :</strong> « Hahahaha ! Quelle impatience ! »</p>
+    <p>La première silhouette sort lentement une petite clé noire.</p>
+    <p><strong>Première silhouette :</strong> « Cette clé ouvre une porte que même Crémy préfère oublier… »</p>
+    <p>Les filles se regardent.</p>
+    <p><strong>Une fille :</strong> « Crémy ? Qu'est-ce qu'elle vient faire là-dedans ? »</p>
+    <p>Les deux silhouettes éclatent de rire.</p>
+    <p><strong>Deuxième silhouette :</strong> « Oh… Vous ne savez donc rien ? »</p>
+    <p>Soudain, le sol commence à trembler.</p>
+    <p>Une fissure traverse le monde des rêves.</p>
+    <p>Et une voix familière retentit derrière elles.</p>
+    <p><strong>Crémy :</strong> « NE TOUCHEZ PAS À CETTE CLÉ ! »</p>
+    <p>Tout le monde se retourne.</p>
+    <p>Crémy vient d'apparaître.</p>
+    <p>Mais son expression est différente.</p>
+    <p>Elle n'a plus son calme habituel.</p>
+    <p><strong>Crémy :</strong> « Les filles… Éloignez-vous d'elles. Immédiatement. »</p>
+    <p>Les deux silhouettes se regardent.</p>
+    <p><strong>Première silhouette :</strong> « Hihihihi… Voilà notre ancienne amie. »</p>
+    <p><strong>Deuxième silhouette :</strong> « Tu nous as tellement manqué, Crémy. »</p>
+    <p>Crémy ne répond pas.</p>
+    <p>Elle fixe simplement les deux silhouettes.</p>
+    <p><em>Et pour la première fois, les filles comprennent que Crémy a peur.</em></p>
+    <a class="btn" href="#chapitres">Retour aux épisodes</a>
+  </div>
+</section>
+
+<section id="admin">
+  <div class="section-kicker">Espace privé</div>
+  <h2>Admin Panel</h2>
+  <p class="intro">Centre de gestion du site : épisodes, textes, illustrations et présentation.</p>
+  <div class="panel" id="admin-login">
+    <h3 style="color:var(--gold)">Connexion administrateur</h3>
+    <p>Cette maquette d'administration est visible dans ce fichier. La protection réelle par compte privé doit être configurée avec l'hébergeur ou un service d'authentification.</p>
+    <label for="admin-code" style="display:block;margin:12px 0 6px">Code administrateur</label>
+    <input id="admin-code" type="password" inputmode="numeric" autocomplete="off" placeholder="Saisir le code administrateur" style="width:100%;padding:12px;border-radius:10px;border:1px solid #8060b8;background:#100d20;color:#fff4df" onkeydown="if(event.key==='Enter') unlockAdmin()">
+    <button class="btn primary" type="button" onclick="unlockAdmin()">Ouvrir le panneau</button>
+    <p id="admin-login-message" class="note" aria-live="polite">Connexion de démonstration : entre le code administrateur.</p>
+  </div>
+  <div class="panel" id="admin-dashboard" hidden>
+    <div class="grid">
+      <article class="card"><div class="symbol">📚</div><h3>Épisodes</h3><p>3 épisodes dans la bibliothèque</p></article>
+      <article class="card"><div class="symbol">✍️</div><h3>Éditeur</h3><p>Préparer les textes et les parties</p></article>
+      <article class="card"><div class="symbol">🖼️</div><h3>Illustrations</h3><p>Préparer les images des pages</p></article>
+      <article class="card"><div class="symbol">⚙️</div><h3>Présentation</h3><p>Titre, description et ambiance</p></article>
+    </div>
+    <h3 style="color:var(--gold);margin-top:30px">Gérer les épisodes</h3>
+    <p class="note">Les champs ci-dessous sont une interface de préparation. Pour publier les modifications à tous les visiteurs, il faudra connecter le site à un hébergement avec base de données et authentification.</p>
+    <label for="admin-episode" style="display:block;margin:12px 0 6px">Épisode à modifier</label>
+    <select id="admin-episode" style="width:100%;padding:12px;border-radius:10px;background:#100d20;color:#fff4df;border:1px solid #8060b8">
+      <option value="1">Épisode 1 — Les deux silhouettes</option>
+      <option value="2">Épisode 2 — Les choses « bizarres » commencent…</option>
+      <option value="3">Épisode 3 — Le cauchemar collectif</option>
+    </select>
+    <label for="admin-title" style="display:block;margin:12px 0 6px">Titre de l'épisode</label>
+    <input id="admin-title" style="width:100%;padding:12px;border-radius:10px;background:#100d20;color:#fff4df;border:1px solid #8060b8" placeholder="Titre de l'épisode">
+    <label for="admin-text" style="display:block;margin:12px 0 6px">Texte / notes de modification</label>
+    <textarea id="admin-text" rows="9" style="width:100%;padding:12px;border-radius:10px;background:#100d20;color:#fff4df;border:1px solid #8060b8" placeholder="Préparer ici le texte de l'épisode…"></textarea>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:14px">
+      <button class="btn primary" type="button" onclick="prepareAdminSave()">Préparer les modifications</button>
+      <button class="btn" type="button" onclick="document.getElementById('admin-title').value='';document.getElementById('admin-text').value=''">Effacer les champs</button>
+      <button class="btn" type="button" onclick="lockAdmin()">Fermer la session</button>
+    </div>
+    <p id="admin-save-message" class="note" aria-live="polite"></p>
+  </div>
+</section>
+<section id="auteur">
+  <div class="section-kicker">Derrière le livre</div>
+  <h2>À propos du projet</h2>
+  <div class="panel">
+    <p><strong>Cookie Run: Kingdom — La Fin Alternative</strong></p>
+    <p class="intro">Un projet de fanfiction imaginé par <strong>Soraya KEFFI</strong>, qui explore une autre possibilité pour l’univers de Cookie Run: Kingdom.</p>
+    <p class="note">Projet non officiel, créé par un fan. Cookie Run: Kingdom et ses personnages appartiennent à leurs ayants droit. Ce site n’est pas affilié à Devsisters.</p>
+  </div>
+</section>
+</main>
+<footer>COOKIE RUN: KINGDOM — LA FIN ALTERNATIVE<br><span>Un projet de fanfiction • Site de présentation</span></footer>
+
+<script>
+function unlockAdmin() {
+  const codeInput = document.getElementById('admin-code');
+  const message = document.getElementById('admin-login-message');
+
+  if (codeInput.value === "2015") {
+    message.textContent = "Code accepté. Bienvenue dans l’espace administrateur !";
+    message.style.color = "#8fe3a2";
+    document.getElementById('admin-dashboard').hidden = false;
+    document.getElementById('admin-login').hidden = true;
+  } else {
+    message.textContent = "Vous n’êtes pas administrateur. Code incorrect.";
+    message.style.color = "#ff7777";
+    codeInput.value = "";
+    codeInput.focus();
+  }
+}
+function lockAdmin() {
+  document.getElementById('admin-dashboard').hidden = true;
+  document.getElementById('admin-login').hidden = false;
+  document.getElementById('admin-code').value = "";
+}
+function prepareAdminSave() {
+  const title = document.getElementById('admin-title').value.trim();
+  const text = document.getElementById('admin-text').value.trim();
+  const episode = document.getElementById('admin-episode').value;
+  const msg = document.getElementById('admin-save-message');
+  if (!title && !text) {
+    msg.textContent = "Ajoute un titre ou un texte avant de préparer les modifications.";
+    return;
+  }
+  msg.textContent = "Modifications préparées pour l'épisode " + episode + ". Elles ne sont pas encore publiées : une connexion à un serveur sécurisé est nécessaire pour enregistrer et publier les changements.";
+}
+</script>
+
+</body>
+</html>
