@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Administration - Cookie Run Kingdom</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  background: #171329;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+h1 { color: #d7b5ff; }
+.card {
+  background: #292344;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 450px;
+  border-radius: 15px;
+}
+a {
+  display: block;
+  background: #7652bd;
+  color: white;
+  padding: 13px;
+  margin: 10px;
+  border-radius: 9px;
+  text-decoration: none;
+}
+a:hover { background: #9573df; }
+</style>
+</head>
+<body>
+
+<h1>🍪 Admin Panel</h1>
+<h2>Cookie Run: Kingdom — La Fin Alternative</h2>
+<p>Centre de gestion du site</p>
+
+<div class="card">
+<h3>🌐 Gestion du site</h3>
+<a href="https://github.com/Imran120815/cookie-run-la-fin-alternative/edit/main/index.html">Modifier le site</a>
+</div>
+
+<div class="card">
+<h3>📖 Gestion du livre</h3>
+<a href="https://github.com/Imran120815/cookie-run-la-fin-alternative/new/main">Créer un chapitre ou un épisode</a>
+<a href="https://github.com/Imran120815/cookie-run-la-fin-alternative">Consulter les fichiers</a>
+</div>
+
+<div class="card">
+<h3>🖼️ Gestion des images</h3>
+<a href="https://github.com/Imran120815/cookie-run-la-fin-alternative/upload/main">Ajouter des images</a>
+</div>
+
+<div class="card">
+<h3>⚙️ Administration</h3>
+<a href="https://github.com/Imran120815/cookie-run-la-fin-alternative/settings">Paramètres du dépôt</a>
+<a href="https://github.com/Imran120815/cookie-run-la-fin-alternative/actions">Historique des publications</a>
+</div>
+
+<p>Administration du projet Cookie Run: Kingdom</p>
+</body>
+</html>
